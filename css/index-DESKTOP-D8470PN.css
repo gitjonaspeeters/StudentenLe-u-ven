@@ -1,0 +1,540 @@
+
+
+/*algemeen*/
+h1 {
+    font-family: "Sansita Swashed", cursive;
+}
+h2 {
+    font-family: "Sansita Swashed", sans-serif;
+
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', cursive;
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    margin:0 auto;
+}
+a{
+    color:  #ff5000;
+    font-weight: bold;
+}
+body {
+    background-color: #D8DDE3;
+
+}
+/*header*/
+header  img {
+    float: left;
+    max-height: 5rem;
+    padding: 0.1875rem;
+}
+
+header section {
+    background-color: #D1E8FF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+header  p {
+    padding-left: 1rem;
+}
+header nav {
+    background-color: #5E77A9;
+    font-family: "Sansita Swashed", sans-serif;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+}
+nav li {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+nav ul {
+    display:block;
+    height: 20%;
+    text-align: center;
+}
+nav ul a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 0.7rem;
+    margin: 0;
+}
+.menu li:hover, .current {
+    background-color: #93A4C5;
+    color: white;
+}
+/*footer */
+footer{
+    background-color: #5E77A9;
+    clear:both;
+    padding:1rem;
+}
+footer img{
+    max-width: 3rem;
+    padding-right: 0.3rem;
+    float: left;
+}
+/*index*/
+#inleiding{
+    padding: 1rem;
+}
+.Kolom section {
+
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    background-color:#D1E8FF;
+    text-align: left;
+    padding: 1rem;
+    margin: 2rem;
+    list-style: none;
+}
+.Kolom {
+    background-color: #5E77A9;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+}
+.Kolom   img {
+    width: 27rem;
+}
+.ligging iframe{
+    width: calc(100% - 2rem);
+
+}
+.oversite{
+    padding: 1rem;
+}
+.check {
+    background: url("../fotos/pattern.jpg") no-repeat center top fixed;
+    background-size: cover;
+    padding:1rem;
+    color:white;
+
+}
+.check ul li{
+    padding: 1rem;
+    margin:1rem;
+    background: #D1E8FF;
+    color:black;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    max-width: 25rem;
+    text-align: center;
+    list-style: none;
+}
+form {
+    display:block;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.25rem 0 .5rem 0;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border:2px solid black;
+}
+input[type=submit] {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background: #afb9bf;
+}
+.help {
+    padding:1rem;
+    overflow: hidden;
+}
+
+
+/*food &drinks*/
+#alma, .etencentrum ul{
+    background: url("../fotos/pattern.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-position: bottom;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+#alma section{
+    background-color: #D1E8FF;
+    padding: 0.5rem;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+}
+#top3 h2{
+    text-align: center;
+    border-bottom: 3px solid #5E77A9;
+    margin: 0 1rem 0 1rem;
+}
+
+.placetobe, #leukeplekken1 h2 {
+    padding: 1rem;
+}
+
+
+.oude1 img {
+    padding:1rem;
+}
+#oude h1 {
+    text-align: center;
+    margin-bottom:0.5rem;
+    border-bottom: #5E77A9 solid 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.top3 {
+    background-color: #5E77A9;
+}
+.top3 p{
+    margin: 1rem;
+    background-color: #D1E8FF;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    padding: 1rem;
+}
+.top3 p:nth-child(1){
+    background-image: url("../fotos/number1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: screen;
+}
+.top3 p:nth-child(2){
+    background-image: url("../fotos/number2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: screen;
+}
+.top3 p:nth-child(3){
+    background-image: url("../fotos/number3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: screen;
+}
+.etencentrum nav,#activiteiten section {
+    display:grid;
+    grid-template-columns: 100%;
+}
+.etencentrum ul li{
+    background: #D1E8FF;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    margin: 1rem;
+    padding: 1rem;
+    list-style:none;
+    max-width: 22rem;
+}
+.etencentrum ul li p img {
+    width: 14rem ;
+}
+.etencentrum section img{
+    max-height: 17rem;
+    padding: 1rem;
+}
+.etencentrum aside {
+    margin-left: 1rem;
+}
+/*leukeplekjes */
+
+#activiteiten{
+    margin: 1rem;
+    padding: 1rem;
+
+}
+#activiteiten li{
+    margin: 1rem;
+    list-style: none;
+}
+
+#activiteiten ul li img{
+    max-height: 300px;
+}
+#activiteiten ul  {
+    margin-left: -2rem;
+}
+#leukeplekken1{
+    margin: 1rem;
+    background: #5E77A9;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+}
+
+#leukeplekken1  img{
+    width: 18rem;
+    height: 12rem;
+}
+#leukeplekken1 li{
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    background-color:#D1E8FF;
+    text-align: left;
+    padding: 1rem;
+    margin: 0 2rem 2rem 0;
+    list-style: none;
+}
+#shoppen{
+    padding: 1rem;
+}
+/*studeren in Leuven */
+#studeren{
+    padding:1rem;
+    margin-top:1rem;
+    background: #5E77A9;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+}
+#studeren ul{
+    margin-left: -3rem;
+}
+#studeren li {
+    background: #D1E8FF;
+    padding: 1rem;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    margin:1rem;
+    list-style: none;
+}
+#studeren li img{
+    padding: 1rem;
+    max-width: 15rem;
+    max-height: 20rem;
+}
+#studeerplekjes{
+    padding: 1rem;
+}
+/*Nuttige dingen */
+#eerstegrid{
+    padding: 1rem;
+    grid-area: one;
+}
+#eerstegrid li{
+    list-style: none;
+}
+#derdegrid{
+    padding:1rem;
+    grid-area: three;
+}
+#derdegrid img{
+    height: 20rem;
+}
+#tweedegrid{
+    grid-area: two;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    padding: 1rem;
+    background: #D1E8FF;
+}
+#supermarkten{
+    grid-area: one;
+    background: #5E77A9;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0.625rem 0.625rem 1.25rem -0.3rem rgba(0,0,0,1);
+    max-width: 40rem;
+}
+#supermarkten section p{
+    padding: 0.5rem;
+}
+#vanpas{
+    grid-area: two;
+    padding: 1rem;
+    margin: 1rem;
+}
+#vanpas section img{
+    width: 30rem;
+}
+/*responsive*/
+/*ipad */
+@media screen and (min-width: 58rem) {
+    /*header */
+    header{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    header img {
+      padding: 5px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    /*home */
+    iframe{
+        width: 23.125rem;
+        height: 20rem;
+    }
+    .Kolom {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+    .banner{
+        background-size: cover;
+        background-position: top;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .check ul{
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .oude1{
+        display:grid;
+        grid-template-columns: 60% 40%;
+        margin-top: 1rem;
+    }
+    .oude1 img {
+        padding: 1rem;
+    }
+    .placetobe{
+        border-right: #5E77A9 3px solid;
+    }
+    .etencentrum ul  {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .etencentrum ul li{
+        max-width: 500px;
+    }
+    .etencentrum ul li p{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .etencentrum section img {
+        max-height: 17rem;
+        padding: 1rem;
+        border-right: 3px solid #5E77A9;
+    }
+    .etencentrum section {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin: 1rem;
+    }
+    .etencentrum section aside{
+        padding-left: 1rem;
+    }
+    /*food&drinks */
+    .top3 {
+        display: grid;
+        background-color: #5E77A9;
+        grid-template-columns: 50% 50%;
+    } /*leukeplekjes */
+    #activiteiten ul li {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #activiteiten ul li img{
+        padding-left: 1rem;
+    }
+    #activiteiten ul li p{
+        padding-right: 1rem;
+    }
+    #leukeplekken1 ul{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    /*studeren */
+    #studeren ul {
+       display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    /*nuttige dingen */
+    #vanpas img{
+        max-width: 20rem;
+        margin: 1rem;
+        border-left: 3px solid #5E77A9;
+    }
+    #vanpas section {
+        display:grid;
+        grid-template-columns: 70% 20%;
+    }
+    #vanpas section  p,#vanpas section  img{
+        padding: 1rem;
+    }
+    #vanpas section  p{
+        align-self: center;
+    }
+}
+/* desktop*/
+    @media screen and (min-width: 1200px) {
+        /*home */
+        .Kolom section{
+            display: grid;
+            grid-template-columns: 35% 65%;
+            height: 20rem ;
+        }
+        .oversite img{
+            max-width: 35rem;
+        }
+        .ligging{
+            display:grid;
+            grid-template-columns: 40% 60%;
+        }
+        .ligging iframe{
+            width: calc(100% - 2rem);
+            height: 16.5rem;
+        }
+        /*food&drinks */
+        .etencentrum ul {
+            display: grid;
+            grid-template-columns:33% 33% 33%;
+        }
+        .etencentrum ul li {
+            max-width: 600px;
+        }
+        .etencentrum ul li img {
+            max-height: 220px;
+        }
+        .top3 {
+            display: grid;
+            background-color: #5E77A9;
+            grid-template-columns: 33% 33% 33%;
+        }
+        /*leukeplekjes */
+        #activiteiten ul li p{
+            grid-area: second;
+
+            padding: 0.5rem;
+            align-self: center;
+        }
+        #activiteiten ul li:nth-child(2),#activiteiten ul li:nth-child(4){
+            display: grid;
+            grid-template-columns: 30% 70%;
+            grid-template-areas: "first second";
+        }
+        #activiteiten ul li:nth-child(1),#activiteiten ul li:nth-child(3){
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-areas: "second first";
+        }
+        #activiteiten ul li img{
+            max-height: 15rem;
+            grid-area: first;
+        }
+        #leukeplekken1 li{
+            display: flex;
+        }
+        /*studeren */
+        #studeerplekjes{
+            display:grid;
+            grid-template-columns:  13% 50% 37%;
+            grid-template-areas:
+            "two one three ";
+        }
+        #derdegrid img {
+            border-left: 3px solid #5E77A9;
+            padding-left: 2rem;
+        }
+        /*Nuttige dingen */
+        #supermarkten{
+            height: 43rem;
+        }
+        #nuttig{
+            display: flex;
+    }}
+
+
+
